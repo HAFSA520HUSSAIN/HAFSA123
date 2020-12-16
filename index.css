@@ -1,0 +1,27 @@
+body{
+    background-color: pink;
+}
+
+form{
+    margin-left: 500px;
+    margin-right: 250px;
+    font-size: 30px;
+
+
+}
+h1{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+     margin-left: 300px;
+    margin-right: 400px;
+    text-align: center;
+
+}
+table,th,td{
+    border: 2px solid white;
+    width: 100%;
+    font-size: 30px;
+
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>MyFisrtAssignment</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+	<script src='index.js'></script>
+</head>
+<body>
+	<h1 class="h1">Data Collector Form</h1>
+	<form id="firstForm">	
+	<div>	
+		    <label id="myLabel">First Name:</label><br>
+		    <input type="text" name="firstName" id="firstName">
+	</div>
+
+	<div>
+			 <label>Last Name:</label><br>
+			 <input type="text" name="lastName" id="lastName">
+	</div>
+
+	<div>
+			<label>E-mail:</label><br>
+			<input type="email" name="eMail" id="eMail">
+	</div>
+	<div>
+		<label>Password:</label><br>
+		<input type="password" name="mypassword" id="mypassword">
+</div>
+	<div>
+					<label>Select Gender:</label><br>
+					<select id="gender"> 
+						<option value="Male">Male </option>
+						<option value="Female">Female</option>
+					</select>
+	</div>
+	<div>
+			<label>Select Your Education:</label><br>
+			<input type="radio" name="myMatric" id="myMatric">Matric
+			<input type="radio"name="myMatric" id="myMatric1">Inter
+			<input type="radio"name="myMatric" id="myMatric2">BSCS
+	 </div>
+	 <div>
+		 <label id="myHobbies">Select Your Hobbies:</label><br>
+		 <input type="checkbox" value="studying"> Studying
+		 <input type="checkbox" value="sleeping"> sleeping
+		 <input type="checkbox" value="eating">Eating 
+	 </div>
+	<div>
+			<label>Phone Number:</label><br>
+			<input type="number" name="myNumber" id="myNumber">
+	</div>
+	
+	<div>
+		<Button type="button" name="submit" onclick="FormSubmit()" style="cursor: pointer;">Click Me</Button>
+    </div>
+	</form>
+	
+	<div id="dynamicTable" >
+		
+	</div>
+	
+</body>
+</html>
